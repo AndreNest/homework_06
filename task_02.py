@@ -22,7 +22,6 @@ def game_viewer(answer):
 def game(question, answer, set_view):
     user_answer = []
     points = 0
-
     while True:
         print('Барабан крутится!')
         random_whels = random.randrange(50, 500, 50)
